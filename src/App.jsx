@@ -23,7 +23,7 @@ function App() {
           {/* Navigation */}
         <nav className="flex items-center space-x-8">
           <button 
-            onClick={() => handleNavClick('playbook')}
+            onClick={() => handleNavClick('playbook')} 
             className="text-gray-500 hover:text-gray-700 transition-colors"
           >
             Playbook
