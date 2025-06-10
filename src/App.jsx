@@ -16,13 +16,11 @@ function App() {
       {/* Header */}
       <header className="flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <div className="flex items-center cursor-pointer" onClick={() => handleNavClick('logo')}>
-          <div className="w-8 h-8 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center">
-            <Zap className="w-5 h-5 text-white" />
+          <div className="flex items-center cursor-pointer" onClick={() => handleNavClick('logo')}>
+            <img src="/public/bonk-logo.png" alt="Logo" className="w-16 h-18 rounded-full" />
           </div>
-        </div>
 
-        {/* Navigation */}
+          {/* Navigation */}
         <nav className="flex items-center space-x-8">
           <button 
             onClick={() => handleNavClick('playbook')}
@@ -52,16 +50,16 @@ function App() {
           {/* Token Avatar */}
           <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden bg-gradient-to-br from-green-400 via-orange-400 to-green-600 flex items-center justify-center">
             <div className="w-20 h-20 bg-gradient-to-br from-green-500 via-orange-500 to-green-700 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">B</span>
+              <span className="text-white font-bold text-lg">T</span>
             </div>
           </div>
           
           {/* Token Info */}
           <div className="mb-6">
-            <div className="text-gray-500 text-sm mb-1">SBLVR</div>
-            <h1 className="text-3xl font-bold text-black mb-2">BELIVER</h1>
+            <div className="text-gray-500 text-sm mb-1">$TEST</div>
+            <h1 className="text-3xl font-bold text-black mb-2">TEST</h1>
             <div className="flex items-center justify-center gap-2">
-              <p className="text-gray-500 text-sm">@launchcoin + BELIVER https://t.co/lcTydTM8Ha</p>
+              <p className="text-gray-500 text-sm">@launchcoin + TEST https://t.co/lcTydTM8Ha</p>
               <button className="text-gray-400 hover:text-gray-600">
                 <MoreHorizontal className="w-5 h-5" />
               </button>
@@ -90,7 +88,7 @@ function App() {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full overflow-hidden bg-gradient-to-br from-green-400 via-orange-400 to-green-600 flex items-center justify-center">
               <div className="w-8 h-8 bg-gradient-to-br from-green-500 via-orange-500 to-green-700 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xs">B</span>
+                <span className="text-white font-bold text-xs">T</span>
               </div>
             </div>
             <div>
@@ -133,8 +131,9 @@ function App() {
             <DialogTitle className="text-center">Page Under Construction</DialogTitle>
           </DialogHeader>
           <div className="text-center py-6">
-            <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Zap className="w-8 h-8 text-white" />
+            <div className="w-16 h-16 items-center justify-center mx-auto mb-4">
+              
+              <img src="/public/bonk-logo.png" alt="Logo" className="w-16 h-18 rounded-full" />
             </div>
             <p className="text-gray-600 mb-4">
               This page is currently being built. Check back soon!
