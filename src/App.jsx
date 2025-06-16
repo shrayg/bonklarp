@@ -137,7 +137,7 @@ function App() {
             <p className="text-gray-600 mb-4">
               This page is currently being built. Check back soon!
             </p>
-            <Button onClick={() => setShowDialog(false)} className="bg-green-600 hover:bg-green-700">
+            <Button onClick={() => setShowDialog(false)} className="bg-amber-600 hover:bg-amber-700">
               Got it
             </Button>
           </div>
