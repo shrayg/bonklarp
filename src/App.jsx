@@ -17,7 +17,7 @@ function App() {
       <header className="flex items-center justify-between px-6 py-4">
         {/* Logo */}
           <div className="flex items-center cursor-pointer" onClick={() => handleNavClick('logo')}>
-            <img src="/public/bonk-logo.png" alt="Logo" className="w-16 h-18 rounded-full" />
+            <img src="/bonk-logo.png" alt="Logo" className="w-16 h-18 rounded-full" />
           </div>
 
           {/* Navigation */}
@@ -132,8 +132,7 @@ function App() {
           </DialogHeader>
           <div className="text-center py-6">
             <div className="w-16 h-16 items-center justify-center mx-auto mb-4">
-              
-              <img src="/public/bonk-logo.png" alt="Logo" className="w-16 h-18 rounded-full" />
+              <img src="/bonk-logo.png" alt="Logo" className="w-16 h-18 rounded-full" />
             </div>
             <p className="text-gray-600 mb-4">
               This page is currently being built. Check back soon!
